@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Presta Smoke Test Runner" parallel="tests" thread-count="2" preserve-order="true" >
+
+    <test name="Regression Test">
+
+       <packages>
+           <package name="com.Presta.Tests.functional_test.cartDetail"/>
+       </packages>
+
+    </test>
+</suite>
